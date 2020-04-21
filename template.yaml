@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion : '2010-09-09'
+
+Description: my template
+Resources:
+    MyBucket:
+        Type: AWS::S3::Bucket
+        DeletionPolicy: Retain
+        Properties:
+            BucketName: my-unique-s3-bucket-name-9999
